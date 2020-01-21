@@ -11,6 +11,7 @@ mother(mary,john).
 %i กฎเบื้องต้น
 %i x จะเป็น parent ของ Y ก็ต่อเมื่อ X เป็น father ของ Y
 %i  head:-body
+%i head จะเป็นจริงเมื่อ body เป็นจริงด้วย
 parent(X,Y):-father(X,Y).
 %i x จะเป็น parent ของ Y ก็ต่อเมื่อ X เป็น mother ของ Y
 parent(X,Y):-mother(X,Y).
